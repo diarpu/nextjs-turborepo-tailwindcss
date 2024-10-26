@@ -15,11 +15,11 @@
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
     "prettier-config-custom": "workspace:*",
-    "prettier": "latest",
+    "prettier": "3.3.3",
     "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "packageManager": "pnpm@8.1.1"
+  "packageManager": "pnpm@9.12.2"
 }

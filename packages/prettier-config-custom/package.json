@@ -6,6 +6,7 @@
     "prettier.config.js"
   ],
   "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.2.7"
+    "prettier-plugin-tailwindcss": "0.6.8",
+    "prettier": "3.3.3"
   }
 }
