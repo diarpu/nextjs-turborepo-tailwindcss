@@ -19,6 +19,16 @@
     },
     "dev": {
       "cache": false
+    },
+    "start": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**",
+        "!.next/cache/**"
+      ]
     }
   }
 }
