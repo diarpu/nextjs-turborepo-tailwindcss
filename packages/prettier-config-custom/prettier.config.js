@@ -3,7 +3,10 @@
  * @type {import("prettier").Config}
  */
 const config = {
-  plugins: ['prettier-plugin-tailwindcss'],
+  plugins: [
+    'prettier-plugin-tailwindcss',
+    '@trivago/prettier-plugin-sort-imports'
+  ],
   trailingComma: 'none',
   tabWidth: 2,
   semi: false,
